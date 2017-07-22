@@ -6659,6 +6659,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
     <Content Include="dist\css\AdminLTE.min.css" />
@@ -7388,6 +7389,8 @@
     <Content Include="composer.json" />
     <Content Include="dist\css\adminlte.css.map" />
     <Content Include="dist\css\adminlte.min.css.map" />
+    <Content Include="login.aspx" />
+    <Content Include="login.html" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="plugins\input-mask\phone-codes\phone-be.json" />
@@ -7635,6 +7638,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
