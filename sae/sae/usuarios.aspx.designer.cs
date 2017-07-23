@@ -10,6 +10,6 @@
 namespace sae {
     
     
-    public partial class Default {
+    public partial class usuarios {
     }
 }

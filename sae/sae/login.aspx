@@ -1,10 +1,11 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="sae.login" %>
 
+
 <!DOCTYPE html>
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Day 001 Login Form</title>
+  <title>SAE - Login</title>
   
   
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+    <form runat="server">
   <div class="login-wrap">
 	<div class="login-html">
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Iniciar Sesión</label>
@@ -23,22 +25,24 @@
 			<div class="sign-in-htm">
 				<div class="group">
 					<label for="user" class="label">Nombre de Usuario</label>
-					<input id="user" type="text" class="input">
+					<asp:TextBox ID="usuarioTxt" class="input" runat="server"></asp:TextBox>
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Contraseña</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<asp:TextBox ID="passTxt" class="input" runat="server" TextMode="Password"></asp:TextBox>
 				</div>
 				<div class="group">
 					<input id="check" type="checkbox" class="check" checked>
 					<label for="check"><span class="icon"></span> Mantener Sesión Iniciada</label>
 				</div>
 				<div class="group">
-					<input type="submit" class="button" value="Iniciar">
+					<asp:Button ID="iniciarBtb" class="button" runat="server" Text="Iniciar" OnClick="iniciarBtb_Click" />
 				</div>
+                
 				<div class="hr"></div>
 				<div class="foot-lnk">
 					<a href="#forgot">No Recuerdas Tu Contraseña?</a>
+                    <asp:Label ID="alerta1" runat="server" Text=""></asp:Label>
 				</div>
 			</div>
 			<div class="sign-up-htm">
@@ -63,13 +67,14 @@
 				</div>
 				<div class="hr"></div>
 				<div class="foot-lnk">
-					<label for="tab-1">Already Member?</a>
+					<label for="tab-1">Already Member?</label>
+                    
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-  
+</form>  
   
 </body>
 </html>
