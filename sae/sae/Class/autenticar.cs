@@ -16,7 +16,7 @@ namespace sae.Class
                           FROM sae1100
                           WHERE login_usu = @user AND pass_usu = @pass";
             //cadena conexion
-            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["saeCS"].ToString()))
+            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["sae_dbConnectionString"].ToString()))
             {
                 conn.Open();//abrimos conexion
 

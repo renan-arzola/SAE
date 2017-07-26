@@ -4,13 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
-using System.Data.Sql;
-using System.Data.SqlClient;
-using sae.Data;
-using sae.Data.DS1100TableAdapters;
 using sae.Class;
-
 
 namespace sae
 {
@@ -18,7 +12,7 @@ namespace sae
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void iniciarBtb_Click(object sender, EventArgs e)
@@ -35,11 +29,9 @@ namespace sae
                 MsgBox("Usuario o Contraseña Incorrecto!!!. Intente otra vez");
             }
         }
-
         public void MsgBox(String msg)
         {
             Page.ClientScript.RegisterStartupScript(Page.GetType(), "Message Box", "<script language='javascript'>alert('" + msg + "')</script>");
         }
-
     }
 }
