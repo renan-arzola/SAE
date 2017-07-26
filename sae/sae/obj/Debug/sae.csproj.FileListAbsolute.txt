@@ -32,3 +32,37 @@ c:\users\renán arzola\documents\visual studio 2017\Projects\sae\sae\bin\Microso
 c:\users\renán arzola\documents\visual studio 2017\Projects\sae\sae\obj\Debug\sae.csprojResolveAssemblyReference.cache
 c:\users\renán arzola\documents\visual studio 2017\Projects\sae\sae\obj\Debug\sae.dll
 c:\users\renán arzola\documents\visual studio 2017\Projects\sae\sae\obj\Debug\sae.pdb
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\csc.exe
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\csc.exe.config
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\csc.rsp
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\csi.exe
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\csi.rsp
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\System.AppContext.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\vbc.exe
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\vbc.exe.config
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\vbc.rsp
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\VBCSCompiler.exe
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\sae.dll.config
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\sae.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\sae.pdb
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\obj\Debug\sae.csprojResolveAssemblyReference.cache
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\obj\Debug\sae.dll
+C:\Users\Renán Arzola\Source\Repos\SAE\sae\sae\obj\Debug\sae.pdb

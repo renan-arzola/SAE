@@ -13,5 +13,20 @@ namespace sae
         {
 
         }
+
+        protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
+        {
+            
+        }
+
+        protected void DeleteButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void SqlDataSource2_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+            GridView1.DataBind();
+        }
     }
 }

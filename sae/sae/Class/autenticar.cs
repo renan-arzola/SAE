@@ -25,7 +25,7 @@ namespace sae.Class
                 cmd.Parameters.AddWithValue("@pass", password);
 
                 int count = Convert.ToInt32(cmd.ExecuteScalar()); //devuelve la fila afectada
-
+                conn.Close();//cerramos conexion
                 if (count == 0)
                     return false;
                 else
